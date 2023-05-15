@@ -20,5 +20,9 @@
       <label for="exampleInputPassword1" class="form-label">Cidade</label>
       <input class="form-control" placeholder="{{cidade}}"value="">
     </div>
-    <button type="submit" (click)="search(input.value);$event.preventDefault()">Continuar</button>
+    
+    <div class="d-grid pag-2">
+    <button type="submit" class="btn btn-light" (click)="search(input.value);$event.preventDefault()">Continuar</button>
+    </div>
+
   </form>
